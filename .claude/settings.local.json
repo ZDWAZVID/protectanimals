@@ -52,7 +52,13 @@
       "Bash(git remote *)",
       "Bash(git branch *)",
       "Bash(git push *)",
-      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(json.dumps\\(data[0] if isinstance\\(data,list\\) and data else data, indent=2, ensure_ascii=False\\)[:2000]\\)\")"
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(json.dumps\\(data[0] if isinstance\\(data,list\\) and data else data, indent=2, ensure_ascii=False\\)[:2000]\\)\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('web_url', d\\)\\)\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(f'{p[\\\\\"id\\\\\"]}: {p[\\\\\"path_with_namespace\\\\\"]}'\\) for p in d]\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('pages_access_level:', d.get\\('pages_access_level'\\)\\); print\\('pages_url:', d.get\\('pages_url'\\)\\); print\\('ci_config_path:', d.get\\('ci_config_path'\\)\\); print\\('builds_access_level:', d.get\\('builds_access_level'\\)\\)\")",
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Bash(npx wrangler *)"
     ]
   }
 }
