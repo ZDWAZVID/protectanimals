@@ -41,7 +41,18 @@
       "Read(//c/Program Files/GitHub CLI/**)",
       "Read(//c/Program Files/GitHub CLI//**)",
       "Bash(where gh *)",
-      "Bash(winget list *)"
+      "Bash(winget list *)",
+      "Bash(PATH=\"$PATH:/c/Program Files/GitHub CLI\" gh auth *)",
+      "Bash(ping -n 2 github.com)",
+      "Bash(ssh -T -o ConnectTimeout=5 git@github.com)",
+      "Bash(mkdir -p ~/.ssh)",
+      "Bash(ssh-keyscan -t ed25519 github.com)",
+      "Bash(ssh-keygen -t ed25519 -C \"protectanimals@github\" -f ~/.ssh/id_ed25519 -N \"\")",
+      "Bash(ssh *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(json.dumps\\(data[0] if isinstance\\(data,list\\) and data else data, indent=2, ensure_ascii=False\\)[:2000]\\)\")"
     ]
   }
 }
