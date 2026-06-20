@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐾 守护地球家园 — 保护濒危动物</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ==================== 导航栏 ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">🌍</span>
+                <span class="logo-text">守护地球</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#about" class="nav-link">关于我们</a></li>
+                <li><a href="#endangered" class="nav-link">濒危动物</a></li>
+                <li><a href="#animals" class="nav-link">保护名录</a></li>
+                <li><a href="#statistics" class="nav-link">数据统计</a></li>
+                <li><a href="#contact" class="nav-link">联系我们</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== 首页 Hero ==================== -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">同一个地球</span>
+                <span class="title-line accent">同一个未来</span>
+            </h1>
+            <p class="hero-subtitle">
+                每天有 <strong>150-200 种物种</strong> 从地球上消失。<br>
+                保护濒危动物，就是保护我们自己的未来。
+            </p>
+            <div class="hero-buttons">
+                <a href="#endangered" class="btn btn-primary">了解濒危动物</a>
+                <a href="#contact" class="btn btn-outline">加入保护行动</a>
+            </div>
+            <div class="hero-scroll">
+                <span>向下滚动</span>
+                <div class="scroll-icon">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 关于我们 ==================== -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">为什么保护动物？</h2>
+                <p class="section-subtitle">每一个物种都是生态系统中不可替代的一环</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">🌿</div>
+                    <h3>生态平衡</h3>
+                    <p>每一个物种都在生态系统中扮演着独特角色。一个物种的消失可能引发连锁反应，破坏整个生态系统的平衡。</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🧬</div>
+                    <h3>生物多样性</h3>
+                    <p>生物多样性是地球生命支持系统的核心。丰富的物种基因库为医学研究、农业发展提供了无限可能。</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">💚</div>
+                    <h3>道德责任</h3>
+                    <p>作为地球上最有智慧的生物，人类有责任保护与我们共享这个星球的其他生命形式。</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🔬</div>
+                    <h3>科学价值</h3>
+                    <p>许多物种蕴含着尚未被发现的科学奥秘，它们可能在医药、科技等领域带来突破性的发现。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 濒危动物重点介绍 ==================== -->
+    <section id="endangered" class="endangered-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🔴 极度濒危动物</h2>
+                <p class="section-subtitle">它们正站在灭绝的边缘，需要我们立即行动</p>
+            </div>
+            <div class="endangered-grid">
+
+                <!-- 华南虎 -->
+                <div class="endangered-card critical">
+                    <div class="card-badge">极危 CR</div>
+                    <div class="card-image">
+                        <img src="images/华南虎.jpg" alt="华南虎" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>华南虎 <span class="scientific">Panthera tigris amoyensis</span></h3>
+                        <div class="status-bar">
+                            <span class="status-label">野生数量</span>
+                            <span class="status-value critical-text">不足 30 只</span>
+                        </div>
+                        <p>华南虎是中国特有的虎亚种，已被列为极度濒危物种。由于栖息地丧失和非法狩猎，野生华南虎几乎绝迹。</p>
+                        <div class="threats">
+                            <span class="threat-tag">栖息地丧失</span>
+                            <span class="threat-tag">非法狩猎</span>
+                            <span class="threat-tag">近亲繁殖</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 中华穿山甲 -->
+                <div class="endangered-card critical">
+                    <div class="card-badge">极危 CR</div>
+                    <div class="card-image">
+                        <img src="images/中华穿山甲.png" alt="穿山甲" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>中华穿山甲 <span class="scientific">Manis pentadactyla</span></h3>
+                        <div class="status-bar">
+                            <span class="status-label">种群趋势</span>
+                            <span class="status-value critical-text">急剧下降</span>
+                        </div>
+                        <p>穿山甲是世界上被非法贩运最多的哺乳动物。它们的鳞片被错误地认为有药用价值，导致大量非法捕杀。</p>
+                        <div class="threats">
+                            <span class="threat-tag">非法贸易</span>
+                            <span class="threat-tag">栖息地破坏</span>
+                            <span class="threat-tag">盗猎</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 朱鹮 -->
+                <div class="endangered-card endangered">
+                    <div class="card-badge warning">濒危 EN</div>
+                    <div class="card-image">
+                        <img src="images/朱鹮.jpg" alt="朱鹮" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>朱鹮 <span class="scientific">Nipponia nippon</span></h3>
+                        <div class="status-bar">
+                            <span class="status-label">全球数量</span>
+                            <span class="status-value warning-text">约 7000 只</span>
+                        </div>
+                        <p>朱鹮被誉为"东方宝石"，曾一度被认为已经灭绝。经过中国科学家数十年的保护努力，种群数量逐步恢复。</p>
+                        <div class="threats">
+                            <span class="threat-tag">农药污染</span>
+                            <span class="threat-tag">湿地减少</span>
+                            <span class="threat-tag">人为干扰</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 保护名录 ==================== -->
+    <section id="animals" class="animals-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">📋 需要保护的动物名录</h2>
+                <p class="section-subtitle">以下动物正面临不同程度的生存威胁</p>
+            </div>
+
+            <!-- 分类筛选 -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="mammal">🐾 哺乳动物</button>
+                <button class="filter-btn" data-filter="bird">🐦 鸟类</button>
+                <button class="filter-btn" data-filter="reptile">🦎 爬行动物</button>
+                <button class="filter-btn" data-filter="marine">🐋 海洋生物</button>
+            </div>
+
+            <div class="animals-grid" id="animalsGrid">
+                <!-- 哺乳动物 -->
+                <div class="animal-card" data-category="mammal">
+                    <div class="animal-image">
+                        <img src="images/大熊猫.jpg" alt="大熊猫" loading="lazy">
+                        <span class="conservation-status vulnerable">易危 VU</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>大熊猫</h4>
+                        <p class="scientific-name">Ailuropoda melanoleuca</p>
+                        <p class="animal-desc">中国国宝，保护工作的标志性物种。野外种群约1,864只。</p>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="mammal">
+                    <div class="animal-image">
+                        <img src="images/川金丝猴.png" alt="金丝猴" loading="lazy">
+                        <span class="conservation-status endangered">濒危 EN</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>川金丝猴</h4>
+                        <p class="scientific-name">Rhinopithecus roxellana</p>
+                        <p class="animal-desc">中国特有的珍稀灵长类动物，生活在高海拔森林中。</p>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="mammal">
+                    <div class="animal-image">
+                        <img src="images/雪豹.jpg" alt="雪豹" loading="lazy">
+                        <span class="conservation-status vulnerable">易危 VU</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>雪豹</h4>
+                        <p class="scientific-name">Panthera uncia</p>
+                        <p class="animal-desc">"雪山之王"，生活在亚洲高山地区，全球约4,000-6,500只。</p>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="mammal">
+                    <div class="animal-image">
+                        <img src="images/藏羚羊.jpeg" alt="藏羚羊" loading="lazy">
+                        <span class="conservation-status near-threatened">近危 NT</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>藏羚羊</h4>
+                        <p class="scientific-name">Pantholops hodgsonii</p>
+                        <p class="animal-desc">青藏高原的精灵，因沙图什披肩贸易曾遭大量猎杀。</p>
+                    </div>
+                </div>
+
+                <!-- 鸟类 -->
+                <div class="animal-card" data-category="bird">
+                    <div class="animal-image">
+                        <img src="images/丹顶鹤.jpg" alt="丹顶鹤" loading="lazy">
+                        <span class="conservation-status endangered">濒危 EN</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>丹顶鹤</h4>
+                        <p class="scientific-name">Grus japonensis</p>
+                        <p class="animal-desc">象征长寿与吉祥的仙鹤，全球仅存约2,700只。</p>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="bird">
+                    <div class="animal-image">
+                        <img src="images/中华秋沙鸭.jpg" alt="中华秋沙鸭" loading="lazy">
+                        <span class="conservation-status endangered">濒危 EN</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>中华秋沙鸭</h4>
+                        <p class="scientific-name">Mergus squamatus</p>
+                        <p class="animal-desc">"鸟类活化石"，第三纪冰川期的孑遗物种，全球不足2,500只。</p>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="bird">
+                    <div class="animal-image">
+                        <img src="images/绿孔雀.jpg" alt="绿孔雀" loading="lazy">
+                        <span class="conservation-status endangered">濒危 EN</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>绿孔雀</h4>
+                        <p class="scientific-name">Pavo muticus</p>
+                        <p class="animal-desc">中国原生孔雀，比蓝孔雀更加稀有，野外种群不足500只。</p>
+                    </div>
+                </div>
+
+                <!-- 爬行动物 -->
+                <div class="animal-card" data-category="reptile">
+                    <div class="animal-image">
+                        <img src="images/扬子鳄.png" alt="扬子鳄" loading="lazy">
+                        <span class="conservation-status critically-endangered">极危 CR</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>扬子鳄</h4>
+                        <p class="scientific-name">Alligator sinensis</p>
+                        <p class="animal-desc">中国独有的小型鳄鱼，野外种群约150-200只。</p>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="reptile">
+                    <div class="animal-image">
+                        <img src="images/鼋.jpeg" alt="鼋" loading="lazy">
+                        <span class="conservation-status critically-endangered">极危 CR</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>鼋</h4>
+                        <p class="scientific-name">Pelochelys cantorii</p>
+                        <p class="animal-desc">世界上最大的淡水龟鳖之一，因栖息地破坏而极度濒危。</p>
+                    </div>
+                </div>
+
+                <!-- 海洋生物 -->
+                <div class="animal-card" data-category="marine">
+                    <div class="animal-image">
+                        <img src="images/中华白海豚.jpg" alt="中华白海豚" loading="lazy">
+                        <span class="conservation-status vulnerable">易危 VU</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>中华白海豚</h4>
+                        <p class="scientific-name">Sousa chinensis</p>
+                        <p class="animal-desc">"海上大熊猫"，珠江口种群约2,500只，受海洋工程威胁。</p>
+                    </div>
+                </div>
+
+                <div class="animal-card" data-category="marine">
+                    <div class="animal-image">
+                        <img src="images/梭皮龟.jpg" alt="棱皮龟" loading="lazy">
+                        <span class="conservation-status vulnerable">易危 VU</span>
+                    </div>
+                    <div class="animal-info">
+                        <h4>棱皮龟</h4>
+                        <p class="scientific-name">Dermochelys coriacea</p>
+                        <p class="animal-desc">世界上最大的海龟，因塑料污染和渔业误捕而面临威胁。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 数据统计 ==================== -->
+    <section id="statistics" class="stats-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title dark">📊 触目惊心的数据</h2>
+                <p class="section-subtitle dark">数字背后是一个个正在消失的生命</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="1000000">0</div>
+                    <div class="stat-label">物种面临灭绝风险</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="68">0</div>
+                    <div class="stat-unit">%</div>
+                    <div class="stat-label">过去50年脊椎动物数量下降</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="200">0</div>
+                    <div class="stat-label">每天消失的物种数量</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="75">0</div>
+                    <div class="stat-unit">%</div>
+                    <div class="stat-label">陆地环境已被人类改变</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 如何帮助 ==================== -->
+    <section class="help-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🤝 您可以做什么？</h2>
+                <p class="section-subtitle">每个人的小小行动，汇聚成改变的力量</p>
+            </div>
+            <div class="help-grid">
+                <div class="help-card">
+                    <div class="help-number">01</div>
+                    <h3>拒绝野生动物制品</h3>
+                    <p>不购买象牙、犀角、穿山甲鳞片等野生动物制品，从源头切断非法贸易。</p>
+                </div>
+                <div class="help-card">
+                    <div class="help-number">02</div>
+                    <h3>支持保护组织</h3>
+                    <p>通过捐款、志愿服务等方式支持WWF、WCS等野生动物保护组织的工作。</p>
+                </div>
+                <div class="help-card">
+                    <div class="help-number">03</div>
+                    <h3>减少塑料使用</h3>
+                    <p>减少一次性塑料制品的使用，防止塑料垃圾进入海洋危害海洋生物。</p>
+                </div>
+                <div class="help-card">
+                    <div class="help-number">04</div>
+                    <h3>传播保护理念</h3>
+                    <p>向身边的人分享野生动物保护知识，提高公众的保护意识。</p>
+                </div>
+                <div class="help-card">
+                    <div class="help-number">05</div>
+                    <h3>可持续消费</h3>
+                    <p>选择可持续认证的产品（如FSC认证木材、MSC认证海产品），减少生态足迹。</p>
+                </div>
+                <div class="help-card">
+                    <div class="help-number">06</div>
+                    <h3>参与公民科学</h3>
+                    <p>通过iNaturalist等平台记录和分享野生动物观察，为科学研究提供数据。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 联系我们 ==================== -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">📬 联系我们</h2>
+                <p class="section-subtitle">加入保护行动，让我们携手守护地球家园</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>地址</h4>
+                            <p>中国北京市朝阳区生态保护大厦 1208 室</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <h4>邮箱</h4>
+                            <p>info@protectanimals.org</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <h4>电话</h4>
+                            <p>+86 400-888-9999</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🕐</span>
+                        <div>
+                            <h4>工作时间</h4>
+                            <p>周一至周五 9:00 - 18:00</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="微信">💬</a>
+                        <a href="#" class="social-link" title="微博">📱</a>
+                        <a href="#" class="social-link" title="B站">📺</a>
+                        <a href="#" class="social-link" title="抖音">🎵</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>发送消息</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">姓名 *</label>
+                            <input type="text" id="name" placeholder="请输入您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱 *</label>
+                            <input type="email" id="email" placeholder="请输入您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">主题</label>
+                            <select id="subject">
+                                <option value="">请选择主题</option>
+                                <option value="volunteer">志愿服务</option>
+                                <option value="donate">捐赠咨询</option>
+                                <option value="report">举报非法贸易</option>
+                                <option value="education">教育合作</option>
+                                <option value="other">其他</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">留言 *</label>
+                            <textarea id="message" rows="5" placeholder="请输入您的留言..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">发送消息 ✉️</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 页脚 ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>🌍 守护地球</h3>
+                    <p>致力于野生动物保护和生物多样性维护的非营利组织。我们相信，每一个生命都值得被尊重和保护。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#endangered">濒危动物</a></li>
+                        <li><a href="#animals">保护名录</a></li>
+                        <li><a href="#contact">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>保护组织</h4>
+                    <ul>
+                        <li><a href="https://www.worldwildlife.org/" target="_blank" rel="noopener">WWF 世界自然基金会</a></li>
+                        <li><a href="https://www.iucn.org/" target="_blank" rel="noopener">IUCN 世界自然保护联盟</a></li>
+                        <li><a href="https://www.wcs.org/" target="_blank" rel="noopener">WCS 野生动物保护协会</a></li>
+                        <li><a href="https://www.cites.org/" target="_blank" rel="noopener">CITES 濒危物种公约</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>订阅资讯</h4>
+                    <p>获取最新的保护动态和行动信息</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="请输入您的邮箱" required>
+                        <button type="submit">订阅</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 守护地球动物保护组织 | 保留所有权利</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== 聊天机器人 ==================== -->
+    <div class="chatbot-widget" id="chatbotWidget">
+        <button class="chatbot-toggle" id="chatbotToggle" title="与动物保护助手聊天">
+            <span class="chatbot-icon">🐾</span>
+            <span class="chatbot-badge" id="chatbotBadge">1</span>
+        </button>
+        <div class="chatbot-window" id="chatbotWindow">
+            <div class="chatbot-header">
+                <div class="chatbot-header-info">
+                    <span class="chatbot-avatar">🐼</span>
+                    <div>
+                        <h4>动物保护助手</h4>
+                        <span class="chatbot-status">在线</span>
+                    </div>
+                </div>
+                <button class="chatbot-close" id="chatbotClose">✕</button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="message bot">
+                    <div class="message-avatar">🐼</div>
+                    <div class="message-content">
+                        <p>你好！我是动物保护助手 🐾</p>
+                        <p>我可以回答你关于野生动物保护、濒危物种的问题。请随时问我：</p>
+                        <ul>
+                            <li>🐅 某种动物的保护状况</li>
+                            <li>🌍 如何参与保护行动</li>
+                            <li>📋 濒危动物相关知识</li>
+                            <li>🤝 联系方式和志愿服务</li>
+                        </ul>
+                        <p>有什么我可以帮你的吗？</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input-area">
+                <input type="text" class="chatbot-input" id="chatbotInput" placeholder="输入你的问题..." autocomplete="off">
+                <button class="chatbot-send" id="chatbotSend">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 返回顶部 -->
+    <button class="back-to-top" id="backToTop" title="返回顶部">↑</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
